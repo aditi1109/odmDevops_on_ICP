@@ -13,14 +13,7 @@
 		<module>Hello XOM</module>
 		<module>Hello Main Service</module>
 	</modules>
-   
-   <dependencies>
-    <dependency>
-        <groupId>com.ibm.rules.buildcommand</groupId>
-        <artifactId>rules-compiler-maven-plugin</artifactId>
-        <version>8.10.0.0</version>
-    </dependency>
-   </dependencies>
+
 
 	<build>
 		<pluginManagement>
@@ -35,4 +28,13 @@
 		</pluginManagement>
 	</build>
 
+	   
+   <dependencies>
+    <dependency>
+        <groupId>com.ibm.rules.buildcommand</groupId>
+        <artifactId>rules-compiler-maven-plugin</artifactId>
+        <version>8.10.0.0</version>
+    </dependency>
+   </dependencies>
+	
 </project>
